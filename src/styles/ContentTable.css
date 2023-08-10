@@ -1,0 +1,49 @@
+.tableContent {
+  padding: 20px;
+  width: 100%;
+  margin-left: 10px;
+  height: 73.5vh;
+  overflow: scroll;
+}
+
+.tableContent::-webkit-scrollbar {
+  width: 6px;
+}
+
+.tableContent::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.tableContent::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.tableTitle {
+  display: flex;
+  gap: 285px;
+  margin-bottom: 20px;
+}
+
+.tableContainer {
+  width: 100%;
+  border-collapse: separate;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+thead th,
+tbody td {
+  padding: 10px 15px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+thead th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+tbody tr:hover {
+  background-color: #e0e0e0;
+}

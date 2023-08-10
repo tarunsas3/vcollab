@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: cascadia code;
+}
+
+.App {
+  display: flex;
+}
+
+.sidebar {
+  width: 240px;
+  background-color: #333;
+  color: white;
+  padding-top: 20px;
+  height: 97.3vh;
+  box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebarIcon {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  color: #aaa;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.sidebarIcon:hover {
+  background-color: #444;
+}
+
+.sidebarIcon svg {
+  font-size: 25px;
+  margin: 10px;
+}
+
+.sidebarIcon span {
+  font-size: 15px;
+}
+
+.RoutesContent {
+  padding: 20px;
+}
+
+.optionBar {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.middleComponent {
+  width: 54%;
+}
